@@ -83,8 +83,8 @@ histogram(overallDist);
 disp('All done...');
 disp('Returning distribution.');
 genTimeDist.overall = overallDist;
-genTimeDist.generations = generations;
-genTimeDist.cellNmbrs = cellNmbrsAllGens;
+genTimeDist.generations = generations; %return generationLabel for each cellNmbr
+genTimeDist.cellNmbrs = cellNmbrsAllGens; %return array of cellNmbrs
 
 return
 end
