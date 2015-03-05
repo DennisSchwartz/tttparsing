@@ -11,7 +11,7 @@ for i = 1:length(trees)
     trees{1,i}.nonFluor.generation = getGenerations(trees{1,i}.nonFluor);
     if any(A == unique(trees{1,i}.nonFluor.positionIndex))
         treesA = [treesA, trees{1,i}];
-    else
+    elseif any(B == unique(trees{1,i}.nonFluor.positionIndex))
         treesB = [treesB, trees{1,i}];
     end
 end
@@ -59,32 +59,93 @@ perGenDistB = calcGenDist(resultsB, maxGensB); % Calculate per-gen distribution
 %   Build Plots for Results
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 figure;
-bins = unique(overallDistA);
-bins = [bins (max(bins) + 1)];
+% Scale Ct values from measurements to hours
+scaledA = (overallDistA * 5) / 60;
+scaledB = (overallDistB * 5) / 60;
+
+%bins = unique(overallDistA);
+%bins = [bins (max(bins) + 1)];
+
+%Set number of bins
+numBins = 20;
 hold on;
-a = histfit(overallDistA, 20);
-xlabel('# of Measurements');
-ylabel('occurences');
+%b = histfit(scaledB, numBins);
+%a = histfit(scaledA, numBins);
 
-xlim([min([overallDistA overallDistB]) 300]);%max([overallDistA overallDistB])]);
+%Calculate Probability and plot Bar graph
+[cA, eA] = histcounts(scaledA, numBins);
+probA = cA / length(scaledA);
+a = bar(eA(1, 1:end-1), probA);
 
-b = histfit(overallDistB, 20);
+[cB, eB] = histcounts(scaledB, numBins);
+probB = cB / length(scaledB);
+b = bar(eB(1, 1:end-1), probB);
+
+%Fit distribution to bar graphs
+paramEstsA = wblfit(scaledA);
+paramEstsB = wblfit(scaledB);
+xgrid = linspace(8,32,100);
+%A
+pdfEstA = wblpdf(xgrid,paramEstsA(1),paramEstsA(2));
+lA = line(xgrid,pdfEstA);
+%B
+pdfEstB = wblpdf(xgrid,paramEstsB(1),paramEstsB(2));
+lB = line(xgrid,pdfEstB);
+
+
+xlabel('Lifetime in Hours');
+ylabel('Probability');
+
+xlim([min([scaledA scaledB])-2 32]);%max([overallDistA overallDistB])]);
+
 %b = bar(y,n, 'hist');
 set(b(1),'FaceColor',[1,0.8,0]);
-set(b(1),'FaceAlpha',0.4);
-set(b(2),'color',[0,1,0]);
+ch = get(b(1),'child');
+set(ch,'FaceAlpha',0.4);
+%set(b(1),'FaceAlpha',0.4);
+%set(b(2),'color',[0,1,0]);
 %area = sum(n)*(y(2)-y(1));
+set(lA, 'color', [0,0,0]);
+set(lB, 'color', [1,.6,0]);
  
-muA = mean(overallDistA);
+muA = mean(scaledA);
 vlineA = line([muA muA], get(gca, 'ylim'));
-set(vlineA, 'color', get(a(2), 'color'));
+set(vlineA, 'color', get(lA, 'color'));
 
-muB = mean(overallDistB);
+muB = mean(scaledB);
 vlineB = line([muB muB], get(gca, 'ylim'));
-set(vlineB, 'color', get(b(2), 'color'));
+set(vlineB, 'color', get(lB, 'color'));
 
+title('Distributions of cell-cycle times');
+legend('Wildtype','Tx+A83','Wildtype Fit & Mean','Tx+A83 Fit & Mean`')
 
 hold off;
+
+% Build plot for Per-Generation Results
+
+% For A
+figure;
+
+[distA, grpA] = trans4Box(perGenDistA);
+hold on;
+title('Cell-cycle time distribution for each generation');
+bpA = boxplot(distA, grpA);
+xlabel('Generation');
+ylabel('Cell-cycle times');
+ylim([10 25]);
+hold off;
+
+% For B
+figure;
+[distB, grpB] = trans4Box(perGenDistB);
+hold on;
+title('Cell-cycle time distribution for each generation');
+bpB = boxplot(distB, grpB);
+xlabel('Generation');
+ylabel('Cell-cycle times');
+ylim([10 25]);
+hold off;
+
 end
 
 
@@ -119,4 +180,19 @@ for i = 1:maxGens %For all generations
         end
     end
 end
+end
+
+%% Function transforming the struct of perGen distributions to a single dist with a corresponding grouping array for BoxPlots
+function [dist, group] = trans4Box(pgDist)
+
+dist = [];
+group = [];
+for i = 1:length(pgDist)
+    dist = [dist cell2mat(pgDist(i))];
+    group = [group linspace(i,i,length(cell2mat(pgDist(i))))];
+end
+
+%Scale to hours
+dist = (dist * 5) / 60;
+
 end
