@@ -54,8 +54,8 @@ disp('Done!');
 
 disp('Calculating overall generation time distibution...');
 u = unique(cellNmbrsForRelTP); %Get unique cellNrs
-bins = [u (max(unique(u)) + 1)]; %Set bins for Hist
-[overallDist, hist, bin] = histcounts(cellNmbrsForRelTP, bins);
+bins = [u (max(u) + 1)]; %Set bins for Hist
+[overallDist, edges, bin] = histcounts(cellNmbrsForRelTP, bins);
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %   Step 4:
@@ -66,10 +66,15 @@ bins = [u (max(unique(u)) + 1)]; %Set bins for Hist
 %From those relTP extract cellNr counts to get cell cycle times
 cellNmbrsAllGens = []; %Can't allocate memory -> changing size
 generations = [];
+hists = {};
 for i = relGenerations
    %get all trackpoints of generation i
    temp = tempGen == i;
    cellNmbrsThisGen = cellNmbrsForRelTP(temp);
+   u = unique(cellNmbrsThisGen);
+   bins = [u (max(u) + 1)];
+   counts = histcounts(cellNmbrsThisGen, bins);
+   hists{i,1} = counts;
    generations = [generations linspace(i,i,length(cellNmbrsThisGen))];
    cellNmbrsAllGens = [cellNmbrsAllGens cellNmbrsThisGen];
 end
@@ -85,6 +90,7 @@ disp('Returning distribution.');
 genTimeDist.overall = overallDist;
 genTimeDist.generations = generations; %return generationLabel for each cellNmbr
 genTimeDist.cellNmbrs = cellNmbrsAllGens; %return array of cellNmbrs
+genTimeDist.hists = hists; %return histcounts for each generation = Cycle length values
 
 return
 end

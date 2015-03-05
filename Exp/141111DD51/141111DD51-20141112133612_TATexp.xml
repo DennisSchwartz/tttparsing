@@ -1,0 +1,481 @@
+<TATSettings>
+<TATVersion>
+20140601
+</TATVersion>
+<TATDLLVersion>
+20141001
+</TATDLLVersion>
+    <PositionCount count="134"/>
+    <PositionData>
+        <PositionInformation>
+            <PosInfoDimension index="0001" posX="0" posY="0" posZ="-102.67" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="zero" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0002" posX="-43446" posY="-2352.4" posZ="-101.15" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="cntrl 5x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0003" posX="-44027.3" posY="-2352.4" posZ="-102.09" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="cntrl 5x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0004" posX="-44911.5" posY="-2352.4" posZ="-103.04" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="cntrl 5x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0005" posX="-45669" posY="-2352.4" posZ="-104.12" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="cntrl 5x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0006" posX="-45669" posY="-2764.9" posZ="-103.46" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="cntrl 5x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0007" posX="-45669" posY="-3181.1" posZ="-103.44" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="cntrl 5x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0008" posX="-45669" posY="-3654" posZ="-101.66" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="cntrl 5x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0009" posX="-45669" posY="-4115.2" posZ="-104.48" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="cntrl 5x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0010" posX="-45669" posY="-4512.7" posZ="-104.37" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="cntrl 5x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0011" posX="-45669" posY="-4957.6" posZ="-106.01" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="cntrl 5x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0012" posX="-45669" posY="-5517.9" posZ="-103.04" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="cntrl 5x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0013" posX="-45669" posY="-5839.5" posZ="-102.78" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="cntrl 5x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0014" posX="-44920.1" posY="-5840.3" posZ="-102.41" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="cntrl 5x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0015" posX="-44254.7" posY="-5840.3" posZ="-102.24" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="cntrl 5x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0016" posX="-43707.8" posY="-5840.3" posZ="-101.75" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="cntrl 5x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0017" posX="-43201.1" posY="-5840.3" posZ="-103.86" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="cntrl 5x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0018" posX="-42707.9" posY="-5840.3" posZ="-101.54" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="cntrl 5x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0019" posX="-42707.9" posY="-5409.9" posZ="-102.18" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="cntrl 5x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0020" posX="-42707.9" posY="-4987.1" posZ="-100.9" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="cntrl 5x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0021" posX="-42707.9" posY="-4471.4" posZ="-102.65" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="cntrl 5x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0022" posX="-43548.9" posY="-21401.4" posZ="-75.82" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX 5x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0023" posX="-44124" posY="-21401.4" posZ="-77.43" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX 5x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0024" posX="-44755.5" posY="-21401.4" posZ="-76.01" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX 5x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0025" posX="-45294.3" posY="-21401.4" posZ="-76.46" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX 5x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0026" posX="-45928.6" posY="-21401.4" posZ="-77.95" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX 5x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0027" posX="-45928.6" posY="-21850.5" posZ="-78.69" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX 5x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0028" posX="-45928.6" posY="-22253.8" posZ="-71.88" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX 5x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0029" posX="-45928.6" posY="-22642.7" posZ="-70.11" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX 5x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0030" posX="-45928.6" posY="-23289.8" posZ="-72.39" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX 5x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0031" posX="-45928.6" posY="-23714" posZ="-68.72" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX 5x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0032" posX="-45928.6" posY="-24191" posZ="-69.12" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX 5x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0033" posX="-45928.6" posY="-24758.7" posZ="-67.21" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX 5x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0034" posX="-45928.6" posY="-25338.7" posZ="-64.74" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX 5x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0035" posX="-45316.3" posY="-25338.7" posZ="-64.64" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX 5x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0036" posX="-44761.6" posY="-25338.7" posZ="-65.97" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX 5x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0037" posX="-44333.4" posY="-25338.7" posZ="-60.01" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX 5x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0038" posX="-44033.8" posY="-41301.8" posZ="-1.91" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX+A 5x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0039" posX="-44576" posY="-41301.8" posZ="-2.64" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX+A 5x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0040" posX="-45195.8" posY="-41301.8" posZ="-3.92" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX+A 5x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0041" posX="-46160.1" posY="-41301.8" posZ="-0.94" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX+A 5x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0042" posX="-46733.3" posY="-41301.4" posZ="-1.85" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX+A 5x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0043" posX="-46733.3" posY="-41749" posZ="6.38" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX+A 5x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0044" posX="-46733.3" posY="-42211.9" posZ="5.51" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX+A 5x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0045" posX="-46733.3" posY="-42567.1" posZ="4.94" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX+A 5x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0046" posX="-46733.3" posY="-42939.1" posZ="6.01" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX+A 5x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0047" posX="-46733.3" posY="-43380.9" posZ="9" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX+A 5x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0048" posX="-46756.4" posY="-44180.3" posZ="14.94" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX+A 5x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0049" posX="-45424.2" posY="-44180.3" posZ="10.59" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX+A 5x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0050" posX="-45424.2" posY="-43879.5" posZ="11.07" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX+A 5x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0051" posX="-44733.4" posY="-42717.6" posZ="2.3" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX+A 5x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0052" posX="-44733.4" posY="-43043.9" posZ="6.78" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX+A 5x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0053" posX="-44733.4" posY="-43391.8" posZ="7.05" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX+A 5x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0054" posX="-44362.2" posY="-43391.8" posZ="5.28" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX+A 5x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0055" posX="-44362.2" posY="-43730.9" posZ="6.77" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX+A 5x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0056" posX="-44362.2" posY="-44202.3" posZ="9.04" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX+A 5x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0057" posX="-44090.8" posY="-41975.7" posZ="-1.58" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX+A 5x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0058" posX="-5516.6" posY="-3090.9" posZ="-82.84" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="cntrl 1x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0059" posX="-5964.7" posY="-3090.9" posZ="-82.81" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="cntrl 1x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0060" posX="-6435.3" posY="-3090.9" posZ="-82.38" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="cntrl 1x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0061" posX="-6851.2" posY="-3090.9" posZ="-85.69" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="cntrl 1x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0062" posX="-7423.4" posY="-3090.9" posZ="-83.26" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="cntrl 1x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0063" posX="-7803.2" posY="-3090.9" posZ="-84.99" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="cntrl 1x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0064" posX="-8244.8" posY="-3090.9" posZ="-80.87" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="cntrl 1x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0065" posX="-8244.8" posY="-3515.5" posZ="-84.54" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="cntrl 1x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0066" posX="-8244.8" posY="-3926.1" posZ="-84.66" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="cntrl 1x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0067" posX="-8244.8" posY="-4217.3" posZ="-82.53" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="cntrl 1x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0068" posX="-8244.8" posY="-4625.8" posZ="-82.44" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="cntrl 1x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0069" posX="-8244.8" posY="-4990.3" posZ="-83.8" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="cntrl 1x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0070" posX="-8244.8" posY="-5328.5" posZ="-81.3" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="cntrl 1x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0071" posX="-8244.8" posY="-5666.9" posZ="-81.01" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="cntrl 1x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0072" posX="-7747.8" posY="-5666.9" posZ="-81.61" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="cntrl 1x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0073" posX="-5669.1" posY="-5666.9" posZ="-81.48" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="cntrl 1x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0074" posX="-7656.2" posY="-23966.4" posZ="-42.08" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX 1x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0075" posX="-8122.6" posY="-23966.4" posZ="-41.52" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX 1x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0076" posX="-8708.3" posY="-23966.4" posZ="-43.1" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX 1x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0077" posX="-8708.3" posY="-25006.8" posZ="-38.43" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX 1x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0078" posX="-8708.3" posY="-26006.5" posZ="-35.62" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX 1x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0079" posX="-7773.2" posY="-26178.4" posZ="-33.93" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX 1x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0080" posX="-6897.7" posY="-26178.4" posZ="-32.43" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX 1x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0081" posX="-6300.6" posY="-26178.4" posZ="-29.75" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX 1x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0082" posX="-5275" posY="-26178.4" posZ="-27.53" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX 1x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0083" posX="-5275" posY="-25626.6" posZ="-30.44" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX 1x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0084" posX="-5275" posY="-24014.8" posZ="-38.81" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX 1x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0085" posX="-6492.5" posY="-41064.8" posZ="24.38" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX+A 1x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0086" posX="-8045.5" posY="-41064.8" posZ="20.74" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX+A 1x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0087" posX="-8045.5" posY="-42481.7" posZ="26.28" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX+A 1x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0088" posX="-8039.1" posY="-42954.8" posZ="28.04" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX+A 1x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0089" posX="-7616.7" posY="-43935.7" posZ="33.71" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX+A 1x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0090" posX="-6213.2" posY="-44035.7" posZ="38.07" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX+A 1x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0091" posX="-5443.9" posY="-44035.7" posZ="35.89" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX+A 1x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0092" posX="-5521.9" posY="-43548.5" posZ="36.3" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX+A 1x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0093" posX="-5641.8" posY="-41890.6" posZ="27.56" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX+A 1x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0094" posX="-24591.3" posY="-5044.7" posZ="-96.77" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="cntrl 2x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0095" posX="-25075" posY="-5044.7" posZ="-93.45" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="cntrl 2x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0096" posX="-25526.2" posY="-5044.7" posZ="-97.68" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="cntrl 2x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0097" posX="-26068.5" posY="-5044.7" posZ="-97.75" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="cntrl 2x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0098" posX="-26762.6" posY="-5044.7" posZ="-95.47" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="cntrl 2x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0099" posX="-27270.5" posY="-5044.7" posZ="-95.43" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="cntrl 2x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0100" posX="-27833.8" posY="-5044.7" posZ="-96.81" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="cntrl 2x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0101" posX="-27853.2" posY="-5396.3" posZ="-94.71" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="cntrl 2x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0102" posX="-27853.2" posY="-5774.8" posZ="-94.06" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="cntrl 2x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0103" posX="-27853.2" posY="-6211.8" posZ="-96.52" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="cntrl 2x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0104" posX="-27325.8" posY="-6593.2" posZ="-96.26" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="cntrl 2x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0105" posX="-26251.8" posY="-6593.2" posZ="-93.56" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="cntrl 2x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0106" posX="-26251.8" posY="-5647.6" posZ="-95.66" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="cntrl 2x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0107" posX="-26530.1" posY="-23975.5" posZ="-73.11" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX 2x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0108" posX="-26974.3" posY="-23975.5" posZ="-72.44" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX 2x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0109" posX="-27518" posY="-23975.5" posZ="-72.91" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX 2x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0110" posX="-28056" posY="-23975.5" posZ="-76.02" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX 2x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0111" posX="-28535.1" posY="-23975.5" posZ="-73.63" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX 2x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0112" posX="-29012.1" posY="-23975.5" posZ="-70.81" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX 2x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0113" posX="-29012.1" posY="-24514" posZ="-65.11" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX 2x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0114" posX="-29012.1" posY="-25034.9" posZ="-71.13" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX 2x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0115" posX="-28424.2" posY="-25034.9" posZ="-66.68" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX 2x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0116" posX="-27633.5" posY="-25034.9" posZ="-71.33" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX 2x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0117" posX="-26988.4" posY="-25034.9" posZ="-68.97" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX 2x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0118" posX="-26483.1" posY="-25034.9" posZ="-71.43" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX 2x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0119" posX="-25969.4" posY="-25034.9" posZ="-67.14" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX 2x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0120" posX="-25886" posY="-44423.4" posZ="5.88" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX+A 2x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0121" posX="-26339" posY="-44423.4" posZ="6.35" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX+A 2x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0122" posX="-27304.7" posY="-44423.4" posZ="4.34" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX+A 2x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0123" posX="-27873.2" posY="-44423.4" posZ="4.95" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX+A 2x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0124" posX="-27873.2" posY="-44860.7" posZ="7.62" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX+A 2x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0125" posX="-27196.2" posY="-45279.5" posZ="8.28" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX+A 2x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0126" posX="-26443.6" posY="-45279.5" posZ="7.88" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX+A 2x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0127" posX="-25916.1" posY="-45279.5" posZ="8.79" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX+A 2x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0128" posX="-25877.4" posY="-44512.3" posZ="2.02" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX+A 2x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0129" posX="-24297.9" posY="-44512.3" posZ="6.06" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX+A 2x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0130" posX="-23696.8" posY="-43965.4" posZ="4.71" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX+A 2x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0131" posX="-23696.8" posY="-43381.6" posZ="4.86" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX+A 2x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0132" posX="-24322.3" posY="-43381.6" posZ="0.81" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX+A 2x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0133" posX="-23911.1" posY="-42430.6" posZ="-0.73" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX+A 2x10^4" />
+        </PositionInformation>
+        <PositionInformation>
+            <PosInfoDimension index="0134" posX="-23044.1" posY="-41970.2" posZ="-3.38" width="-1" height="-1" multiwellX="0" multiwellY="0" AlternativeW0="0" comments="TX+A 2x10^4" />
+        </PositionInformation>
+    </PositionData>
+    <WavelengthCount count="3"/>
+    <WavelengthData>
+        <WavelengthInformation>
+            <WLInfo Name="00" Comment="Ph2" SettingDuring="Halogen 3V" CoolLEDUse="false" CoolLEDChannelAIntensity="0" CoolLEDChannelBIntensity="0" CoolLEDChannelCIntensity="0" CoolLEDChannelDIntensity="0" LumencorUse="false" LumencorChannel1Intensity="0" LumencorChannel2Intensity="0" LumencorChannel3Intensity="0" LumencorChannel4Intensity="0" LumencorChannel5Intensity="0" LumencorChannel6Intensity="0" SettingAfter="" ExpTime="80" Interval="1" Coexpose="False" BlackPoint="0" WhitePoint="0.25" Gamma="1" Compression="50" ImageType="png" UseBetweenPositionsSetting="false" UseAutofocus="false" AutofocusInterval="1" UseDefinitiveFocus="false" width="1388" height="1040" DelayAtPosition="0" />
+        </WavelengthInformation>
+        <WavelengthInformation>
+            <WLInfo Name="01" Comment="" SettingDuring="all lights off" CoolLEDUse="false" CoolLEDChannelAIntensity="0" CoolLEDChannelBIntensity="0" CoolLEDChannelCIntensity="0" CoolLEDChannelDIntensity="0" LumencorUse="false" LumencorChannel1Intensity="0" LumencorChannel2Intensity="0" LumencorChannel3Intensity="0" LumencorChannel4Intensity="0" LumencorChannel5Intensity="0" LumencorChannel6Intensity="0" SettingAfter="" ExpTime="35" Interval="1" Coexpose="False" BlackPoint="0" WhitePoint="0.25" Gamma="1" Compression="50" ImageType="png" UseBetweenPositionsSetting="false" UseAutofocus="false" AutofocusInterval="1" UseDefinitiveFocus="false" width="1388" height="1040" DelayAtPosition="0" />
+        </WavelengthInformation>
+        <WavelengthInformation>
+            <WLInfo Name="02" Comment="" SettingDuring="all lights off" CoolLEDUse="false" CoolLEDChannelAIntensity="0" CoolLEDChannelBIntensity="0" CoolLEDChannelCIntensity="0" CoolLEDChannelDIntensity="0" LumencorUse="false" LumencorChannel1Intensity="0" LumencorChannel2Intensity="0" LumencorChannel3Intensity="0" LumencorChannel4Intensity="0" LumencorChannel5Intensity="0" LumencorChannel6Intensity="0" SettingAfter="" ExpTime="1" Interval="1" Coexpose="False" BlackPoint="0" WhitePoint="0.25" Gamma="1" Compression="50" ImageType="png" UseBetweenPositionsSetting="false" UseAutofocus="false" AutofocusInterval="1" UseDefinitiveFocus="false" width="1388" height="1040" DelayAtPosition="0" />
+        </WavelengthInformation>
+    </WavelengthData>
+    <TimepointCount value="999999"/>
+    <Interval value="300"/>
+    <UseBetweenTimepointsSetting value="true"/>
+    <StaggerWavelengths value="false"/>
+    <StartSetting value="Halogen 3V"/>
+    <StopSetting value="all lights off"/>
+    <BetweenTimepointsSetting value="all lights off"/>
+    <CurrentUserInitials value=""/>
+    <CurrentObjectiveMagnification value="20"/>
+    <CurrentTVAdapterMagnification value="0.5"/>
+    <CurrentSetupNumber value="51"/>
+    <CellsAndConditions>
+        <NumberOfCellTypes value="1"/>
+        <Temperature value="37"/>
+        <CO2 value="5"/>
+        <Flask value="W24"/>
+        <Medium value="PC"/>
+        <MediumVolumeInUl value="1000"/>
+        <Incubators value="XL"/>
+        <Serum value="no serum"/>
+        <SerumPercentage value="10"/>
+        <MediumAdditions value=""/>
+        <ReflectedLightSource value="HXP120"/>
+        <Camera value="AxioCamHR"/>
+        <LED1 value=""/>
+        <LED2 value=""/>
+        <LED3 value=""/>
+        <LED4 value=""/>
+        <LumencorChannel1 value=""/>
+        <LumencorChannel2 value=""/>
+        <LumencorChannel3 value=""/>
+        <LumencorChannel4 value=""/>
+        <LumencorChannel5 value=""/>
+        <LumencorChannel6 value=""/>
+        <LumencorChannel7 value=""/>
+        <TransmittedLightSource value="Halogen"/>
+        <HalogenVoltage value="3"/>
+        <NeutralFilter value="0"/>
+        <TVAdapter value="0.5"/>
+        <IlluminationComment value=""/>
+        <AgeFluorescentLamp value="400"/>
+        <HoursBeforeMovieStart value="24"/>
+        <CellsAndConditions_CellTypes>
+            <CNC_CTs_CellType>
+                <PrimaryCell value="false"/>
+                <Name value="TC5.d10"/>
+                <Species value=""/>
+                <Sex value="female"/>
+                <Organ value=""/>
+                <Age value="0"/>
+                <Purification value=""/>
+                <Comment value=""/>
+            </CNC_CTs_CellType>
+        </CellsAndConditions_CellTypes>
+    </CellsAndConditions>
+</TATSettings>
+
