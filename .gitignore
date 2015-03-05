@@ -1,3 +1,6 @@
 #Ignore picture files
 
 *.png
+*.fig
+*.zip
+*.svg

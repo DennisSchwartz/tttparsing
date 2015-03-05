@@ -58,14 +58,14 @@ perGenDistB = calcGenDist(resultsB, maxGensB); % Calculate per-gen distribution
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %   Build Plots for Results
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-figure;
+figure('Position', [100, 100, 1000, 1000]);
 % Scale Ct values from measurements to hours
 scaledA = (overallDistA * 5) / 60;
 scaledB = (overallDistB * 5) / 60;
 
 %bins = unique(overallDistA);
 %bins = [bins (max(bins) + 1)];
-
+subplot(2,2,[1 2]); % first subplot
 %Set number of bins
 numBins = 20;
 hold on;
@@ -115,37 +115,37 @@ set(vlineA, 'color', get(lA, 'color'));
 muB = mean(scaledB);
 vlineB = line([muB muB], get(gca, 'ylim'));
 set(vlineB, 'color', get(lB, 'color'));
+delta = abs((muA - muB));
+str1 = ['\leftarrow \Delta mean = ' num2str(delta)];
+text(muB,.15,str1)
 
 title('Distributions of cell-cycle times');
 legend('Wildtype','Tx+A83','Wildtype Fit & Mean','Tx+A83 Fit & Mean`')
 
-hold off;
+
 
 % Build plot for Per-Generation Results
 
 % For A
-figure;
-
+subplot(2,2,3); % second subplot
 [distA, grpA] = trans4Box(perGenDistA);
-hold on;
-title('Cell-cycle time distribution for each generation');
 bpA = boxplot(distA, grpA);
 xlabel('Generation');
-ylabel('Cell-cycle times');
+ylabel('Cell-cycle times (hours)');
+title('Cell-cycle time distribution for each generation');
 ylim([10 25]);
-hold off;
+
 
 % For B
-figure;
+subplot(2,2,4); % last subplot
 [distB, grpB] = trans4Box(perGenDistB);
-hold on;
-title('Cell-cycle time distribution for each generation');
 bpB = boxplot(distB, grpB);
 xlabel('Generation');
-ylabel('Cell-cycle times');
+ylabel('Cell-cycle times (hours)');
+title('Cell-cycle time distribution for each generation');
 ylim([10 25]);
 hold off;
-
+%export_fig;
 end
 
 
@@ -158,7 +158,6 @@ for i = 1:length(trees)
     results = [results res];
 end
 end
-
 %% Calculate the largest number of generations in a set of trees
 function maxGens = calcMaxGen(results)
 maxGens = 0;
@@ -181,7 +180,6 @@ for i = 1:maxGens %For all generations
     end
 end
 end
-
 %% Function transforming the struct of perGen distributions to a single dist with a corresponding grouping array for BoxPlots
 function [dist, group] = trans4Box(pgDist)
 
